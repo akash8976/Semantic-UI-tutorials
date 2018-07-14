@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
+
+<style media="screen">
+
+  body{
+    margin-top: 100px;
+  }
+  #animate
+  {
+    background-color: lightblue;
+  }
+</style>
+
+</style>
+</head>
+<body>
+
+  <div class="ui container">
+   <h1>Test on udemy</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Magni doloribus, delectus, quo autem debitis esse necessitatibus maiores commodi.
+             Pariatur, animi totam magni
+             porro culpa repellat tempore, repudiandae nam ad explicabo.
+           </p>
+
+           <hr>
+   </div>
+<br>
+
+   <div class="ui container">
+         <div class="ui button">Clik Me!</div>
+         <div class="ui primary button">Primary Button</div>
+         <div class="ui secondary button">secondary Button</div>
+
+         <div id="animate" class="ui animated button">
+           <div class="visible content">Next</div>
+           <div class="hidden content"><i class="right arrow icon"></i></div>
+         </div>
+
+         <div class="ui basic button">Basic Button</div>
+
+         <div class="ui buttons">
+           <div class="ui button">ONE</div>
+           <div class="or"></div>
+           <div class="ui button">TWO</div>
+         </div>
+
+
+         <div class="ui loading button">LOADING</div>
+
+         <div class="ui facebook button">Log in with Facebook</div>
+         <hr><br>
+         <div class="ui google plus button">Log in with GOOGLE</div>
+         <div class="ui youtube button">YOUTUBE</div>
+         <div class="ui twitter button">Twitter</div>
+
+         <div class="ui mini button">Mini</div>
+         <div class="ui massive button">Massive</div>
+         <div class="ui large button">Large</div>
+
+<hr>
+<br>
+   </div>
+
+
+<div class="ui container">
+          <div class="ui input">
+                <input type="text" name="" value="" placeholder="Hi Alex!">
+          </div>
+
+          <div class="ui medium input">
+                <input type="text" name="" value="" placeholder="Hi Alex!">
+          </div>
+
+          <div class="ui large input">
+                <input type="text" name="" value="" placeholder="Hi Alex!">
+          </div>
+
+          <div class="ui massive input">
+                <input type="text" name="" value="" placeholder="Hi Alex!">
+          </div>
+
+          <div class="ui right labeled input">
+                <input type="text" name="" value="" placeholder="0000">
+                <div class="ui label">$</div>
+          </div>
+
+          <div class="ui icon input">
+                <input type="text" name="" value="" placeholder="Search">
+                <i class="search icon"></i>
+          </div>
+
+          <div class="ui left icon input">
+                <input type="text" name="" value="" placeholder="Search">
+                <i class="search icon"></i>
+
+          </div>
+
+          <hr><br>
+</div>
+
+
+
+<div class="ui container">
+          <div class="ui menu">
+                <div class="item active"><a href="#">HOME</a></div>
+                <div class="item"><a href="#">About Us</a></div>
+
+                <div class="right menu">
+                      <div class="ui transparent left icon input">
+                        <input type="text" name="" value="" placeholder="Search">
+                        <i class="search icon"></i>
+                      </div>
+
+                      <div class="item">Login</div>
+                      <div class="item">Register</div>
+                </div>
+          </div>
+<hr><br>
+</div>
+
+<div class="ui container">
+
+            <div  class="ui accordion">
+                    <div class="title"><i class="dropdown icon"></i>What is SEMANTIC UI</div>
+                    <div class="content">A Frontend library</div>
+            </div>
+
+            <div class="ui accordion">
+                    <div class="title"><i class="dropdown icon"></i>What is SEMANTIC UI</div>
+                    <div class="content">A Frontend library</div>
+            </div>
+
+            <div class="ui accordion">
+                    <div class="title"><i class="dropdown icon"></i>What is SEMANTIC UI</div>
+                    <div class="content">A Frontend library</div>
+            </div>
+
+
+            <div class="ui accordion">
+                    <div class="title"><i class="dropdown icon"></i>What is SEMANTIC UI</div>
+                    <div class="content">A Frontend library</div>
+            </div>
+<hr><br>
+</div>
+
+
+<div class="ui container">
+            <select id="dropme" class="" name="Gender" class="ui multiple dropdown">
+                      <option value="M">Male</option>
+                      <option value="F">Female</option>
+                      <option value="O">Other</option>
+            </select>
+</div>
+
+<hr><br><br><br><br>
+
+
+
+<div class="ui container">
+            <div class="ui sidebar vertical menu">
+                  <div class="item">HOME</div>
+                  <div class="item">About</div>
+                  <div class="item">Contact</div>
+                  <div class="item">Service</div>
+            </div>
+
+            <i id="menu_open" class="content huge icon"></i>
+</div>
+
+
+
+<script type="text/javascript">
+     $('#dropme').dropdown();
+     $('.ui.accordion').accordion();
+     $('#menu_open').click(function(){ $('.sidebar.menu').sidebar('toggle') });
+</script>
+
+
+
+</body>
+</html>
